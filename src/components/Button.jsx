@@ -1,9 +1,10 @@
 
-const Button = () => {
+const Button = ({changeBackgroundImage}) => {
  
 
   return(
-    <button><i className='bx bxs-right-arrow-circle bx-lg'></i></button>
+    <button 
+    onClick={changeBackgroundImage}><i className='bx bxs-right-arrow-circle bx-lg'></i></button>
   )
 }
 
