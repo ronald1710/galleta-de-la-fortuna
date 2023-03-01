@@ -23,13 +23,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 60vh;
   width: auto;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 64% 36% 0% 100% / 53% 100% 0% 47% ;
+  padding: 5rem;
 }
 
-.Phrase, Author{
+.Phrase .Author{
   padding: 1rem;
   margin: 1px;
 }
